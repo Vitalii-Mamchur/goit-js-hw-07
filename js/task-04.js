@@ -3,9 +3,9 @@ const btnIncEl = document.querySelector('button[data-action="increment"]');
 let outEl = document.querySelector("#value");
 
 const onDecrementBtnClick = () =>
-  (outEl.textContent = Number(outRef.textContent) - 1);
+  (outEl.textContent = Number(outEl.textContent) - 1);
 const onIncrementBtnClick = () =>
-  (outEl.textContent = Number(outRef.textContent) + 1);
+  (outEl.textContent = Number(outEl.textContent) + 1);
 
 btnDecEl.addEventListener("click", onDecrementBtnClick);
 btnIncEl.addEventListener("click", onIncrementBtnClick);

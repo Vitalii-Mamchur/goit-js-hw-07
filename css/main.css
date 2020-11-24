@@ -1,3 +1,8 @@
+a {
+  display: block;
+  padding-bottom: 5px;
+}
+
 #gallery {
   display: flex;
 }
